@@ -10,6 +10,7 @@ body, html{
     margin-left: 2rem;
     font-weight: bold;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .pClass{
@@ -23,15 +24,15 @@ body, html{
 
 #header{
     background-color: black;
-    height: 10%;
+    height: 10vh;
 }
 
 #content{
-    background-image: url("rumrejsenudenmånerpng.png");
+    background-image: url("rumrejsen.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90%;    
+    height: 90vh;    
 }
 
 #pris{
@@ -45,7 +46,7 @@ body, html{
     position: absolute;
     top: 36%;
     left: 26.8%;
-    background-image: url("måneknap.png");
+    background-image: url("moon.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,7 +67,7 @@ body, html{
     position: absolute;
     top: 14.7%;
     left: 50%;
-    background-image: url("måneknap.png");
+    background-image: url("moon.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,7 +89,7 @@ body, html{
     position: absolute;
     top: 62.2%;
     left: 62.2%;
-    background-image: url("måneknap.png");
+    background-image: url("moon.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,7 +111,7 @@ body, html{
     position: absolute;
     top: 79%;
     left: 82.4%;
-    background-image: url("måneknap.png");
+    background-image: url("moon.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

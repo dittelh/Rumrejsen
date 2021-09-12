@@ -10,17 +10,23 @@ body, html{
     margin-left: 2rem;
     font-weight: bold;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 #header{
     background-color: black;
-    height: 10%;
+    height: 10vh;
 }
 
 #content{
-    background-image: url("Rumrejsenbaggrund.png");
+    background-image: url("rumrejsenbaggrund.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90%;    
+    height: 90vh;    
+}
+
+a{
+    text-decoration: none;
+    color: unset;
 }
