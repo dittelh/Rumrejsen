@@ -1,0 +1,26 @@
+body, html{
+    font-family: monospace;
+    margin: 0;
+}
+
+#h1Id{
+    font-family: monospace;
+    font-size: 4.5rem;
+    color: #2f3ba8;
+    margin-left: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#header{
+    background-color: black;
+    height: 10%;
+}
+
+#content{
+    background-image: url("Rumrejsenbaggrund.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;    
+}

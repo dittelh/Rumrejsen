@@ -1,25 +1,24 @@
-html{
-    height: 100%;
-}
 body, html{
     font-family: monospace;
     margin: 0;
-    max-height: 100%;
 }
 
 #h1Id{
+    font-family: monospace;
     font-size: 4.5rem;
     color: #2f3ba8;
     margin-left: 2rem;
-    font-weight: bolder;
+    font-weight: bold;
     margin-bottom: 0;
 }
 
 .pClass{
+    font-family: monospace;
     color: #666dad;
     font-size: 1.6rem;
     margin-left: 3.5rem;
-    font-weight: bold;
+    font-weight: 400;
+    padding-top: 2rem;
 }
 
 #header{
@@ -28,10 +27,10 @@ body, html{
 }
 
 #content{
-    background-image: url("rumrejsenudensort.png");
+    background-image: url("rumrejsenudenmånerpng.png");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
     height: 90%;    
 }
 
@@ -46,6 +45,11 @@ body, html{
     position: absolute;
     top: 36%;
     left: 26.8%;
+    background-image: url("måneknap.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 #pris:hover{
     cursor: pointer;
@@ -62,6 +66,10 @@ body, html{
     position: absolute;
     top: 14.7%;
     left: 50%;
+    background-image: url("måneknap.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #tilmelding:hover{
@@ -80,6 +88,10 @@ body, html{
     position: absolute;
     top: 62.2%;
     left: 62.2%;
+    background-image: url("måneknap.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #livestream:hover{
@@ -98,6 +110,10 @@ body, html{
     position: absolute;
     top: 79%;
     left: 82.4%;
+    background-image: url("måneknap.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #forventninger:hover{
