@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+}
+body, html{
+    font-family: monospace;
+    margin: 0;
+    max-height: 100%;
+}
+
+#h1Id{
+    font-size: 4.5rem;
+    color: #2f3ba8;
+    margin-left: 2rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.pClass{
+    color: #666dad;
+    font-size: 1.6rem;
+    margin-left: 3.5rem;
+    font-weight: bold;
+}
+
+#header{
+    background-color: black;
+    height: 10%;
+}
+
+#content{
+    background-image: url("rumrejsenudensort.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90%;    
+}
+
+#pris{
+    font-family: monospace;
+    font-size: 2rem;
+    height: 10.1rem;
+    width: 10.1rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0px solid black;
+    position: absolute;
+    top: 36%;
+    left: 26.8%;
+}
+#pris:hover{
+    cursor: pointer;
+}
+
+#tilmelding{
+    font-family: monospace;
+    font-size: 2rem;
+    height: 13.6rem;
+    width: 13.6rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0px solid black;
+    position: absolute;
+    top: 14.7%;
+    left: 50%;
+}
+
+#tilmelding:hover{
+    cursor: pointer;
+
+}
+
+#livestream{
+    font-family: monospace;
+    font-size: 1.7rem;
+    height: 13.7rem;
+    width: 13.7rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0px solid black;
+    position: absolute;
+    top: 62.2%;
+    left: 62.2%;
+}
+
+#livestream:hover{
+    cursor: pointer;
+}
+
+#forventninger{
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 0.9rem;
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0px solid black;
+    position: absolute;
+    top: 79%;
+    left: 82.4%;
+}
+
+#forventninger:hover{
+    cursor: pointer;
+}
+
