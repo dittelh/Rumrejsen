@@ -1,0 +1,94 @@
+body, html{
+    font-family: monospace;
+    margin: 0;
+}
+
+#h1Id{
+    font-family: monospace;
+    font-size: 4.5rem;
+    color: #2f3ba8;
+    margin-left: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#header{
+    background-color: black;
+    height: 10vh;
+}
+
+#content{
+    background-image: url("rumrejsenbaggrund.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;    
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    border-radius: 5%;
+    margin-top: 3%;
+}
+
+#gruppebillede{
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+#raket{
+    height: 30rem;
+    width: 15rem;
+    position: relative;
+    display: inline-block;   
+    margin-left: 20%;
+    margin-top: 20% 
+}
+
+#hvemervisection{
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 1.5rem;
+}
+
+#gruppebillede:hover + #hvemervisection, #hvemervisection:hover{
+    visibility: visible;
+}
+
+#forventningersection{
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 1.5rem;
+}
+
+#raket:hover + #forventningersection, #forventningersection:hover{
+    visibility: visible;
+}
+

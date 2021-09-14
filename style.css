@@ -16,10 +16,10 @@ body, html{
 .pClass{
     font-family: monospace;
     color: #666dad;
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     margin-left: 3.5rem;
-    font-weight: 400;
-    padding-top: 2rem;
+    font-weight: 700;
+    padding-top: 6rem;
 }
 
 #header{
@@ -28,7 +28,7 @@ body, html{
 }
 
 #content{
-    background-image: url("rumrejsen.png");
+    background-image: url("rumforsidemænd.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,14 +44,19 @@ body, html{
     background-color: transparent;
     border: 0px solid black;
     position: absolute;
-    top: 36%;
-    left: 26.8%;
+    top: 60%;
+    left: 64.8%;
     background-image: url("moon.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 #pris:hover{
     cursor: pointer;
 }
@@ -65,12 +70,17 @@ body, html{
     background-color: transparent;
     border: 0px solid black;
     position: absolute;
-    top: 14.7%;
-    left: 50%;
+    top: 13%;
+    left: 58%;
     background-image: url("moon.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #tilmelding:hover{
@@ -87,12 +97,17 @@ body, html{
     background-color: transparent;
     border: 0px solid black;
     position: absolute;
-    top: 62.2%;
-    left: 62.2%;
+    top: 70.2%;
+    left: 80.2%;
     background-image: url("moon.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #livestream:hover{
@@ -110,11 +125,16 @@ body, html{
     border: 0px solid black;
     position: absolute;
     top: 79%;
-    left: 82.4%;
+    left: 50.4%;
     background-image: url("moon.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #forventninger:hover{
